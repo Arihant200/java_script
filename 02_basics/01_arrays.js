@@ -13,4 +13,13 @@ myArr.shift()
 console.log(myArr)
 console.log(myArr.includes(2))
 
+//slice ,splice
+console.log("A",myArr)
+const myarr1=myArr.slice(1,3);
+console.log(myarr1);
+console.log("B",myArr);
 
+const myarr2=myArr.splice(1,3)
+console.log(myArr);//splice sliced the portion from main array
+console.log(myarr2)//spliced portion printed
+// .join =>convert to string
